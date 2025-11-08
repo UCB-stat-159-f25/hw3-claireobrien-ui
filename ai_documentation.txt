@@ -1,1 +1,1 @@
-I did not use AI for this project. However, I relied heavily on assorted MYST and Makefile tutorials/documentation websites, as well as GSI/classmate help. 
+I did not use AI for this project. However, I relied heavily on assorted MYST and Makefile tutorials/documentation websites, as well as GSI help. 
