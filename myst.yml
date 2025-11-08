@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: b499b6d4-c5f3-4132-8750-fb436e2ca3ec
+  title: "Homework 3 - Introduction to Myst, testing, and general computational cleanliness"
+  description: "This is the submission site for Claire O'Brien's Stat 159 HW 3, which focuses on the analysis of LIGO Event data in the context of creating reproducible, easy-to-read data structures"
+  keywords: ["LIGO", "homework", "Stat 159"]
+  authors:
+    - name: "Claire O'Brien"
+    - name: "Ligo Scientific Collaboration (LSC)"
+  github: https://github.com/UCB-stat-159-f25/hw3-claireobrien-ui
+  # To autogenerate a Table of Contents, run "myst init --write-toc" 
+  toc:
+    - file: index.md
+    - url: "https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-claireobrien-ui.git/HEAD?urlpath=%2Fdoc%2Ftree%2FLOSC_Event_tutorial.ipynb"
+    - file: LOSC_Event_tutorial.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
